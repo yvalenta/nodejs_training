@@ -1,7 +1,10 @@
-function setUnion(a=[], b=[]) {
-  return new Set(a).union(new Set(b));   
+export function setUnion(a = [], b = []) {
+  const setA = new Set(a);
+  const setB = new Set(b);
+  return new Set([...setA, ...setB]);
 }
-    
-console.log(setUnion([1, 2, 3], [3, 4, 5]));
 
-module.exports = { setUnion };
+// Ejemplo de uso
+if (import.meta.url.endsWith('map.js')) {
+  console.log(Array.from(setUnion([1, 2, 3], [3, 4, 5])));
+}
