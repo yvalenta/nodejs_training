@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_training",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/yvalenta/nodejs_training#readme",
+  "bugs": {
+    "url": "https://github.com/yvalenta/nodejs_training/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvalenta/nodejs_training.git"
+  },
+  "license": "ISC",
+  "author": "Ynt",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --node-options=\"--harmony-set-methods\""
+  },
+  "devDependencies": {
+    "jest": "30.1.3"
+  }
+}
