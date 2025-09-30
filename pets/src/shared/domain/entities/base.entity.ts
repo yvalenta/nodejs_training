@@ -1,4 +1,4 @@
-import { BaseProps } from "../types/base.props";
+import { BaseProps } from "../../types/base.props";
 
 export class BaseEntity {
     readonly id: string;
